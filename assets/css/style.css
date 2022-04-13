@@ -1,0 +1,17 @@
+/* selector de etiqueta */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+
+/* selector de clase */
+.bg-black{
+    background-color: #000000;
+}
+
+/* cartas */
+
+.card img {
+    max-height: 150px;
+}

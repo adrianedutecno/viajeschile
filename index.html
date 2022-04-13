@@ -22,7 +22,7 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav id="menuc" class="navbar navbar-expand-md navbar-dark fixed-top">
         <!-- container (anchura 75%) o container-fluid (anchura 100%) o container-{xs,sm,md,lg,xl}-fluid  -->
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -54,35 +54,156 @@
     <header id="inicio">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="llama, alpaca">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="totem, moais">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="pinguinos">
-              </div>
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="llama, alpaca">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="totem, moais">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="pinguinos">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
     </header>
 
     <!-- secccion quienes somos -->
-
+    <section class="pt-5 bg-black">
+        <!-- container -->
+        <div class="container">
+            <div class="text-center">
+                <h4 class="fw-bold mx-auto mb-4">¿QUIÉNES SOMOS?</h4>
+                <hr class="mb-4 bg-info">
+            </div>
+            <!-- fila o row -->
+            <div class="row">
+                <!-- division en columnas -->
+                <div class="col-md-4 col-lg-4 col-xl-4">
+                    <div class="text-center bg-info">
+                        <i class="fa-solid fa-plane"></i>
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dicta fuga repudiandae
+                            impedit id sed, provident sint, expedita voluptate voluptas soluta aliquam totam dolore
+                            architecto, error placeat tenetur minus recusandae?
+                        </p>
+                    </div>
+                </div>
+                <!-- division en columnas -->
+                <div class="col-md-4 col-lg-4 col-xl-4">
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique quibusdam,
+                            consequatur eligendi magni, quisquam quasi voluptatum illum sunt incidunt autem saepe
+                            voluptatibus nam. Itaque molestias alias magni at reprehenderit!
+                        </p>
+                    </div>
+                    <div class="text-center bg-info">
+                        <i class="fa-solid fa-mountain"></i>
+                    </div>
+                </div>
+                <!-- division en columnas -->
+                <div class="col-md-4 col-lg-4 col-xl-4">
+                    <div class="text-center bg-info">
+                        <i class="fa-solid fa-route"></i>
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere beatae nulla quam
+                            voluptas, numquam est tenetur perferendis adipisci consequuntur sed molestias ducimus
+                            exercitationem nesciunt. Consectetur maiores alias nam omnis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- seccion destacados -->
-
+    <section class="pt-5 bg-black">
+        <div class="mx-5 text-center">
+            <h4 class="fw-bold mb-4">DESTACADOS</h4>
+            <hr class="mb-4 bg-info">
+        </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/card1.jpg" class="card-img-top" alt="card1">
+                        <div class="card-body bg-info">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="car2">
+                        <div class="card-body bg-info">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="card3">
+                        <div class="card-body bg-info">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="card3">
+                        <div class="card-body bg-info">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- seccion contacto -->
-
+    <section class="pt-5 bg-black">
+        <div class="mx-5">
+            <form class="container">
+                <div class="mb-3">
+                    <label for="exampleInputText" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputText" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-info">Enviar</button>
+            </form>
+        </div>
+    </section>
     <!-- footer -->
+    <footer>
 
+    </footer>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"
